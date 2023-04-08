@@ -2,8 +2,8 @@ package com.example.mykotlinapp
 
 fun main(args:Array<String>){
 
-    println("Enter Number Of Rows Below : ")
-    var Rows = readLine()!!.toInt()
+//    println("Enter Number Of Rows Below : ")
+//    var Rows = readLine()!!.toInt()
 
 //    *
 //    **
@@ -66,21 +66,33 @@ fun main(args:Array<String>){
 //    }
 
 // Diamond
-    for(i in Rows downTo 0){
-        for(j in 1..i){
-            print(" ")
-        }
-        for(k in 1..(Rows-i)){
-            print(" *")
-        }
-        println()
-    }
-    for(l in 1..Rows){
-        for(m in 1..l){
-            print(" ")
-        }
-        for(n in 1..(Rows-l)){
-            print(" *")
+//    for(i in Rows downTo 0){
+//        for(j in 1..i){
+//            print(" ")
+//        }
+//        for(k in 1..(Rows-i)){
+//            print(" *")
+//        }
+//        println()
+//    }
+//    for(l in 1..Rows){
+//        for(m in 1..l){
+//            print(" ")
+//        }
+//        for(n in 1..(Rows-l)){
+//            print(" *")
+//        }
+//        println()
+//    }
+
+
+    for(i in 0..3){
+        for(j in 1..5){
+            if(j>=4-i && j<=2+i){
+                print("*")
+            }else{
+                print(" ")
+            }
         }
         println()
     }
