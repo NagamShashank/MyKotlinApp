@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Log.e("MY SERVICE","This is onCreate")
-
         binding.StartButton.setOnClickListener(View.OnClickListener {
             startService(Intent(this,MyService::class.java))
         })
