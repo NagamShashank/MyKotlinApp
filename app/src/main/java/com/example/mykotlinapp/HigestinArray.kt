@@ -1,7 +1,7 @@
 package com.example.mykotlinapp
 
 fun main(args:Array<String>){
-    val NumArray = arrayOf(1,3,56,29,12,10,6,8)
+    val NumArray = arrayListOf(1,3,56,29,12,10,6)
 
     var max = NumArray[0]
     var max2 = NumArray[0]
