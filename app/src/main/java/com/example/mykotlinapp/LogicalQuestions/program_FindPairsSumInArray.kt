@@ -2,8 +2,8 @@ package com.example.mykotlinapp.LogicalQuestions
 
 fun main(args:Array<String>){
 
-    val numbers = arrayListOf<Int>(80, 60, 10, 50, 30, 100, 0, 50)
-    val sum = 80
+    val numbers = arrayListOf(80, 60, 10, 50, 30, 100, 0, 50)
+    val sum = 40
 
     pairs(sum,numbers)
 }

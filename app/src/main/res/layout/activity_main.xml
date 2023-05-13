@@ -8,22 +8,31 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/StartButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Start Music"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="300dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/StartButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Start Music"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="300dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/StopButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:text="Stop Music"-->
+<!--        android:layout_gravity="center_horizontal" />-->
+
 
     <Button
-        android:id="@+id/StopButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="Stop Music"
-        android:layout_gravity="center_horizontal" />
-
+            android:id="@+id/StartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Ask For Permissions"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="300dp"/>
 
 </LinearLayout>
