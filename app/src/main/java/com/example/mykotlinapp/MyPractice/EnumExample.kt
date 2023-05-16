@@ -4,6 +4,7 @@ fun main(args:Array<String>){
       val day = DAYS.THURSDAY
       day.printFormattedDay()
 
+
 //    println(day)
 
 //    for(i in DAYS.values()){

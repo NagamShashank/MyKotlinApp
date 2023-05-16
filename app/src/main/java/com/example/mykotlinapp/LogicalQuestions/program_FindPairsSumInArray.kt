@@ -1,5 +1,4 @@
 package com.example.mykotlinapp.LogicalQuestions
-
 fun main(args:Array<String>){
 
     val numbers = arrayListOf(80, 60, 10, 50, 30, 100, 0, 50)
@@ -7,7 +6,6 @@ fun main(args:Array<String>){
 
     pairs(sum,numbers)
 }
-
 fun pairs(sum:Int,array:ArrayList<Int>){
     var count = 0
 
@@ -23,5 +21,4 @@ fun pairs(sum:Int,array:ArrayList<Int>){
 
     println("Total Count is : $count")
 }
-
 // Time complexity is O(n x n)

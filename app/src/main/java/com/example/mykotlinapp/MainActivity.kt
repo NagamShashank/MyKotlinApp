@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        binding.apply {
+            StartButton.setOnClickListener {
+                getpermission()
+            }
+        }
 
 //
 //        Log.e("MY SERVICE","This is onCreate")
@@ -40,9 +45,9 @@ class MainActivity : AppCompatActivity() {
         //Runtime Permissions using Dexter Library
 
 
-        binding.StartButton.setOnClickListener {
-            getpermission()
-        }
+//        binding.StartButton.setOnClickListener {
+//            getpermission()
+//        }
 
 
     }
