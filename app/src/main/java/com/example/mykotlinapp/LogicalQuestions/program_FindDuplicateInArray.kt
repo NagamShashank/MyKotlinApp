@@ -13,7 +13,6 @@ fun main(args:Array<String>){
     }
     println("Duplicate Numbers are :")
     for(e in duplicates){
-
         print("$e ")
     }
 }

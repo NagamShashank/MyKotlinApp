@@ -11,12 +11,12 @@ interface Sub{
 class perform : Add,Sub{
 
     override fun Addition(a: Int,b: Int) {
-        var c = a+b
+        val c = a+b
         println("Addition is : $c")
     }
 
     override fun Subtraction(p: Int,q: Int) {
-        var l = p-q
+        val l = p-q
         println("Subtraction is : $l")
     }
 

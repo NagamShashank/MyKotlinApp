@@ -16,5 +16,4 @@ fun main(args:Array<String>){
     println(obj1.hello())
 
     println("Hashcode of obj1 : ${obj1.hashCode()} and obj2 : ${obj2.hashCode()}")
-
 }

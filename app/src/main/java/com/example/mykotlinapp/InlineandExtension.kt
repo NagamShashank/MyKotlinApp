@@ -19,6 +19,14 @@ fun Operation.squareRoot(number:Int): Int {
     return i-1
 }
 
+infix fun Operation.evenOddCheck(n : Int){
+    if(n%2 == 0){
+        println("Number is Even")
+    }else{
+        println("Number is Odd")
+    }
+}
+
 fun main(args:Array<String>){
     println("Enter a Number : ")
     val N = readLine()!!.toInt()
@@ -26,6 +34,8 @@ fun main(args:Array<String>){
     val obj = Operation()
     obj.square(N)
     println("SquareRoot of $N is : "+obj.squareRoot(N))
+
+    obj evenOddCheck N
 }
 
 

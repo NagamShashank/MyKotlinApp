@@ -5,6 +5,8 @@ sealed class Fruit(val i : String){
     class Apple : Fruit("Apple")
     class Mango : Fruit("Mango")
 
+
+
 }
 
 class Banana : Fruit("Banana")
